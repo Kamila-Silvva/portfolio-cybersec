@@ -40,10 +40,8 @@ O site apresenta um design responsivo "Mobile-First", acessibilidade aprimorada 
 ├── index.html      # Estrutura principal e conteúdo
 ├── style.css       # Estilização, temas e animações
 ├── script.js       # Lógica, validação e interatividade
-├── README.md       # Documentação do projeto
-└── assets/            # Pasta de assets
-    ├── perfil.jpg
-    ├── Análise de Código e Scripts de Defesa.png
-    ├── Dashboard Wazuh - Monitoramento de Segurança.png
-    ├── Mapa de Ameaças em Tempo Real.png
-    └── movie.mp4
+├── README.md       # Documentação do projeto         
+├── Análise de Código e Scripts de Defesa.png
+├── Dashboard Wazuh - Monitoramento de Segurança.png
+├── Mapa de Ameaças em Tempo Real.png
+└── movie.mp4
