@@ -1,4 +1,4 @@
-# 🛡️ CyberSec Portfolio & E-book Interativo
+# 🛡️ CyberSec Portfolio
 
 > **Tema:** Portfólio Profissional.
 
