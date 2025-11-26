@@ -43,7 +43,7 @@ O site apresenta um design responsivo "Mobile-First", acessibilidade aprimorada 
 ├── README.md       # Documentação do projeto
 └── assets/            # Pasta de assets
     ├── perfil.jpg
-    ├── foto1.png
-    ├── foto2.png
-    ├── foto3.png
+    ├── Análise de Código e Scripts de Defesa.png
+    ├── Dashboard Wazuh - Monitoramento de Segurança.png
+    ├── Mapa de Ameaças em Tempo Real.png
     └── movie.mp4
