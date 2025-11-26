@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio Kamila Silva - Analista de Segurança da Informação (Blue Team)">
+    <title>Kamila Silva // CyberSec Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css?v=final_fix_v2">
+</head>
+
+<body>
+
+    <header id="topo">
+        <nav>
+            <div class="logo">&lt;Kamila_Silva&gt;</div>
+            <ul class="nav-links">
+                <li><a href="#landing">Home</a></li>
+                <li><a href="#sobre">Perfil</a></li>
+                <li><a href="#conteudo">Skills</a></li>
+                <li><a href="#galeria">Logs</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Alternar Tema">Modo Escuto</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="landing" class="hero">
+            <div class="hero-content">
+                <h1 class="typing-effect">BLUE_TEAM_ANALYST...</h1>
+                <p>Monitoramento, Threat Intelligence e Resposta a Incidentes.</p>
+                <a href="#sobre" class="btn">Acessar Dossiê</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="container">
+            <h2>Perfil Profissional</h2>
+            <div class="profile-container">
+                <img src="img/perfil.jpg" alt="Foto" class="profile-pic">
+                <div class="profile-text">
+                    <p>> <strong>User:</strong> Kamila Silva</p>
+                    <p>> <strong>Role:</strong> Analista de Segurança da Informação (Blue Team)</p>
+                    <p>> <strong>Location:</strong> Brasília - DF</p>
+                    <p>> <strong>Education:</strong> Análise e Desenvolvimento de Sistemas (UCB - Concluído)</p>
+                    <br>
+                    <p>> <strong>Bio:</strong> Experiência prática em ambiente SOC com monitoramento e triagem de
+                        incidentes (N1). Especialista em ferramentas SIEM (Splunk, Wazuh, Chronicle) e análise de logs.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="conteudo" class="container">
+            <h2>Competências</h2>
+            <div class="grid-layout">
+                <article class="card">
+                    <h3>01. Monitoramento & SIEM</h3>
+                    <p>Experiência com Splunk, Wazuh e Google Chronicle para correlação de eventos e detecção de ameaças
+                        em tempo real.</p>
+                </article>
+                <article class="card">
+                    <h3>02. Incident Response</h3>
+                    <p>Execução de playbooks de resposta, triagem de alertas e apoio ao time N2 na contenção de
+                        incidentes.</p>
+                </article>
+                <article class="card">
+                    <h3>03. Network Security</h3>
+                    <p>Análise de tráfego, protocolos TCP/IP, DNS, VPN e configuração de regras de Firewall e proteção
+                        de infra.</p>
+                </article>
+                <article class="card">
+                    <h3>04. Compliance</h3>
+                    <p>Aplicação de boas práticas baseadas em NIST CSF, CIS Controls, ISO 27001 e LGPD.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="galeria" class="container">
+            <h2>Galeria</h2>
+            <div class="gallery-grid">
+                <img src="img/Dashboard Wazuh - Monitoramento de Segurança.png" alt="Dashboard Wazuh">
+                <img src="img/Mapa de Ameaças em Tempo Real.png" alt="Mapa de Rede">
+                <img src="img/Análise de Código e Scripts de Defesa.png" alt="Terminal Code">
+            </div>
+
+            <div class="video-container">
+                <video width="100%" height="400" autoplay loop muted playsinline class="cyber-video">
+                    <source src="img/movie.mp4" type="video/mp4">
+                    Seu navegador não suporta a tag de vídeo.
+                </video>
+            </div>
+        </section>
+
+        <section id="contato" class="container">
+            <h2>Contato</h2>
+
+            <form id="contact-form" action="https://formspree.io" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="name" placeholder="Digite seu nome..." required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="message" rows="4" placeholder="Digite sua mensagem..."
+                    required></textarea>
+
+                <button type="submit" class="btn">ENVIAR</button>
+                <p id="form-feedback"></p>
+            </form>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/kamila-alves-silva/" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Kamila-Silvva" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Kamila Silva </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
