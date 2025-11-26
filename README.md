@@ -41,7 +41,7 @@ O site apresenta um design responsivo "Mobile-First", acessibilidade aprimorada 
 ├── style.css       # Estilização, temas e animações
 ├── script.js       # Lógica, validação e interatividade
 ├── README.md       # Documentação do projeto
-└── img/            # Pasta de assets
+└── assets/            # Pasta de assets
     ├── perfil.jpg
     ├── foto1.png
     ├── foto2.png
